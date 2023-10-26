@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 33px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
